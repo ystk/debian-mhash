@@ -1,3 +1,51 @@
+mhash (0.9.9.9-7) unstable; urgency=medium
+
+  * add build dependency on pkg-config for its autoconf macros.
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Sat, 24 May 2014 08:48:29 +0100
+
+mhash (0.9.9.9-6) unstable; urgency=medium
+
+  * support pkg-config mhash
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Mon, 19 May 2014 15:37:47 +0100
+
+mhash (0.9.9.9-5) unstable; urgency=medium
+
+  * bump standards version
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Wed, 12 Feb 2014 23:31:43 +0000
+
+mhash (0.9.9.9-4) unstable; urgency=low
+
+  * disable multi-arch for -dev package (closes: #723667)
+  * minor autotools patches
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Fri, 18 Oct 2013 19:33:51 +0100
+
+mhash (0.9.9.9-3) unstable; urgency=low
+
+  * turn on multi-arch: same to allow co-existence
+  * stop using dh-exec (see http://wiki.debian.org/Multiarch/Implementation)
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Tue, 25 Jun 2013 14:13:58 +0100
+
+mhash (0.9.9.9-2) unstable; urgency=low
+
+  * debian/control:
+    - add VCS field (collab-maint git repo)
+    - add homepage field
+    - bump standards version
+    - add self as co-maintainer
+  * Move to dh9, update packaging scripts accordingly
+  * Use dh-autoreconf
+  * Support multiarch using dh-exec
+  * Switch to dpkg source format 3.0 (quilt)
+  * Incorporate Fedora patches (closes: #649092)
+  * Patch a spelling error
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Tue, 25 Jun 2013 09:43:43 +0100
+
 mhash (0.9.9.9-1.1) unstable; urgency=low
 
   * NMU
